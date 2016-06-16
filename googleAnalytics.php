@@ -40,6 +40,9 @@ $wgGoogleAnalyticsIgnorePages = array();
 // Array with special pages where web analytics code should NOT be included.
 $wgGoogleAnalyticsIgnoreSpecials = array( 'Userlogin', 'CreateAccount', 'Userlogout', 'Preferences', 'ChangePassword' );
 
+// Enhanced Link Attribution
+$wgGoogleAnalyticsEnhancedLinkAttribution = false;
+
 /* WARNING! The following options were removed in version 3.0:
  *   $wgGoogleAnalyticsAddASAC
  *   $wgGoogleAnalyticsIgnoreSysops
